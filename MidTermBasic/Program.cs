@@ -11,6 +11,10 @@ namespace MidTermBasic
     {
         static void Main(string[] args)
         {
+
+            //var lineCount = File.ReadLines("../../TextFile1.txt").Count();
+            //Console.WriteLine(lineCount);
+
             bool displayMenu = true;
             while (displayMenu)
             {
@@ -48,7 +52,7 @@ namespace MidTermBasic
             {
                 //search by keyword
 
-
+                PrintList(GetList());
 
                 SearchbyKeyWord(GetList());
 
@@ -79,6 +83,8 @@ namespace MidTermBasic
             }
             else if (userInput == 5)
             {
+
+                WriteToText(AddBooks(GetList()));
 
                 Console.WriteLine("Donate a book coming soon");
                 
@@ -132,7 +138,9 @@ namespace MidTermBasic
             StreamReader reader = new StreamReader("../../TextFile1.txt ");
             //this is one line from text file or one book
             char[] comma = { ',' };
-            for (int i = 0; i < 14; i++)
+            var lineCount = File.ReadLines("../../TextFile1.txt").Count();
+
+            for (int i = 0; i < lineCount; i++)
 
             {
                 string line = reader.ReadLine();
@@ -280,6 +288,34 @@ namespace MidTermBasic
             }
 
             WriteToText(inputCatalogue);
+
+        }
+
+        public static List<Books> AddBooks(List<Books> inputList)
+        {
+            
+            //List<Books> NewList = new List<Books>();
+            //NewList.Add(new Books(ChoiceTitle, ChoiceAuthor, Status, DueDate));
+            do
+            {
+
+                string ChoiceTitle;
+                string ChoiceAuthor;
+                Console.WriteLine("Please Enter in The Information For The Book You Are Donating:\n");
+                Console.Write("Book Title: ");
+                ChoiceTitle = Validate.GetValidString();
+                Console.Write("Book Author: ");
+                ChoiceAuthor = Validate.GetValidString();
+                string Status = "Available";
+                string DueDate = "N/A";
+
+
+                inputList.Add(new Books(ChoiceTitle, ChoiceAuthor, Status, DueDate));
+                Console.WriteLine("Thank You For Donating " + ChoiceTitle + " By " + ChoiceAuthor);
+            } while (Validate.Continue());
+
+            return inputList;
+
 
         }
     }

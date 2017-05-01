@@ -12,3 +12,5 @@ Come Sundown,Nora Roberts,Available,N/A
 The Black Book,James Patterson,Checked-out,5/14/2017
 Hundred Years of Solitude,Gabiel Garcia Marquez,Available,N/A
 Gone Girl,Gillian Flynn,Available,N/A
+blood river,jonny verga,Available,N/A
+captainfaglord,jimmy dude,Available,N/A

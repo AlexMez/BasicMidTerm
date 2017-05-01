@@ -48,7 +48,7 @@ namespace MidTermBasic
 
         public static bool Continue()
         {
-            Console.WriteLine("Do you want to continue? (y/n)");
+            Console.WriteLine("Do you want to donate another book? (y/n)");
 
             string input = Console.ReadLine();
             Console.Clear();
@@ -77,14 +77,16 @@ namespace MidTermBasic
             while ((string.IsNullOrEmpty(Input)) || (string.IsNullOrWhiteSpace(Input))) //you can add more ifs to this or compare with a string.
 
             {
-                Console.ForegroundColor = ConsoleColor.Red;
+                
                 Console.WriteLine();
-                Console.Write("You Must Enter a Word  ---> 'rock' 'paper' or 'scissors'  ");
-                Console.ForegroundColor = ConsoleColor.Green;
-                Input = Console.ReadLine().ToLower(); ;
+                Console.Write("You Must Enter a Word");
+
+                Input = Console.ReadLine().ToLower();
             }
             return Input;
         }
+
+
 
     }
 }
