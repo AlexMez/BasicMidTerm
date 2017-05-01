@@ -1,0 +1,14 @@
+Harry Potter and the Curse,J.K.Rowling,Available,N/A
+Red Rain,R.L.Stine,Available,N/A
+Sixteenth Seduction,James Patterson,Available,N/A
+Thirteen Reasons Why,Jay Asher,Available,N/A
+The Third Wave,Steve Case,Available,N/A
+Cat and the Hat,Dr.Seuss,Available,N/A
+Green Eggs and Ham,Dr.Seuss,Available,N/A
+How the Grinch Stole Christmas,Dr.Seuss,Available,N/A
+Anything is Possible,Elizabeth Strout,Available,N/A
+The Secrets of My Life,Caitlyn Jenner,Available,N/A
+Come Sundown,Nora Roberts,Available,N/A
+The Black Book,James Patterson,Checked-out,5/14/2017
+Hundred Years of Solitude,Gabiel Garcia Marquez,Available,N/A
+Gone Girl,Gillian Flynn,Available,N/A

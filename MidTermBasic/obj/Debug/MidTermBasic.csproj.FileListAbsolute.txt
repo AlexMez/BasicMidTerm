@@ -1,0 +1,6 @@
+c:\users\alex\documents\visual studio 2015\Projects\MidTermBasic\MidTermBasic\bin\Debug\MidTermBasic.exe.config
+c:\users\alex\documents\visual studio 2015\Projects\MidTermBasic\MidTermBasic\bin\Debug\MidTermBasic.exe
+c:\users\alex\documents\visual studio 2015\Projects\MidTermBasic\MidTermBasic\bin\Debug\MidTermBasic.pdb
+c:\users\alex\documents\visual studio 2015\Projects\MidTermBasic\MidTermBasic\obj\Debug\MidTermBasic.csprojResolveAssemblyReference.cache
+c:\users\alex\documents\visual studio 2015\Projects\MidTermBasic\MidTermBasic\obj\Debug\MidTermBasic.exe
+c:\users\alex\documents\visual studio 2015\Projects\MidTermBasic\MidTermBasic\obj\Debug\MidTermBasic.pdb
